@@ -37,5 +37,6 @@ class Waiter
       #a.max                                   #=> "horse"
       #a.max { |a, b| a.length <=> b.length }  #=> "albatross"
       #you can see here that its a three element array - don't get hung up on there only being an |a, b| - its built as a comparison operator. 
+      #so what its doing here is finding the meal with the .tip association that is highest, and ending the code body. Then, to complete what the test wants to find, it calls on that meal instance that was just determiend to have the highest tip, and asks it for its .customer association. 
 
 end
