@@ -201,7 +201,6 @@ require_relative './lib/customer.rb'
 require_relative './lib/meal.rb'
 require_relative './lib/waiter.rb'
 ```
-
 ## Completing the Has-Many-Through Relationship
 
 This is awesome, but it isn't done yet! To complete our goal of establishing a
